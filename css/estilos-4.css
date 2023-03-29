@@ -1,0 +1,36 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Kalam', cursive;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(5,7,12,0.75), rgba(5,7,12,0.75)),url(../imagenes/portada.ico);
+    background-attachment: fixed;
+    background-repeat: repeat;
+}
+.contenedor{
+    margin-top: 10%;
+    position: relative;
+    text-align: center;
+    width: 550px;
+    height: 350pxpx;
+    background-color: #4b6d7c9f;
+    box-shadow: 0 35px 55px rgba(0, 0, 0, 0.5)
+}
+
+h1{
+    text-align: center;
+    align-content: center;
+    color: #ffffff;
+    background: #003147;
+    border-radius: 10px;
+}
+
+li,p{
+    color: aliceblue;
+    text-decoration-line: none;
+    text-decoration: none;
+}
